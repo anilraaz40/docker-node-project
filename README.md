@@ -1,6 +1,6 @@
 # docker-testapp
 
-<p> install docker</p>
+<p> <b>install docker</b></p>
 --------------------------------------------------------------
 
 <b># Add Docker's official GPG key: </b>
@@ -16,7 +16,7 @@ echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-</pre>pre>
+</pre>
 sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
