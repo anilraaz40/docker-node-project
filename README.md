@@ -24,7 +24,8 @@ Run yaml file for running container of mongo and mongo-express
 
 docker-compose -f file.yaml up
 --------------------------------------------------------------
-ersion: '3'
+<p>
+version: '3'
 services:
   # my-app:
   # image: ${docker-registry}/my-app:1.0
@@ -51,6 +52,7 @@ services:
 volumes:
   mongo-data:
     driver: local
+</p>
 --------------------------------------------------------------
 Create Image of node-project bu using Dockerfile
 
